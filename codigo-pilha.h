@@ -8,4 +8,5 @@ void destroy(pilha_t *p);
 int verifyFull(pilha_t *p);
 int verifyEmpty(pilha_t *p);
 int push(pilha_t *p, elem x);
+int pop(pilha_t *p, elem *x);
 int top(pilha_t *p, elem *x);
